@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="../../public/assets/css/Normalize.css">
+    <link rel="stylesheet" href="../../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/assets/css/all.min.css">
+
+    <style>
+        .navbar-light {
+            background-color: #f08897 !important;
+            color: white !important;
+        }
+
+        .navbar-light * {
+            color: white !important;
+        }
+
+        .sel-S{
+            width: 100px !important;
+
+        }
+
+    </style>
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="../../public/assets/image/icon_image.png" alt="website logo" width="50" height="50" class="img-fluid rounded">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Category 01</a>
+                        <a class="dropdown-item" href="#">Category 02</a>
+                        <a class="dropdown-item" href="#">Category 03</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Recommendation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Blog</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-12 ">
+                        <h2 class="display-4">Recommendations</h2>
+                        <hr width="33%" class="mr-auto ml-0">
+                        <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                            This is a modified jumbotron that occupies the entire horizontal space of its parent
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 col-lg-4">
+                    <div class="card border border-primary">
+                        <div class="card-body">
+                            <h3 class="text-uppercase text-center">Sorting</h3>
+                            <hr>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-down"></i>
+                                    Names Desc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-up"></i>
+                                    Names Asc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-down"></i>
+                                    Price Desc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-up"></i>
+                                    Price Asc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-down"></i>
+                                    Discount Desc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-up"></i>
+                                    Discount Asc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-down"></i>
+                                    Sales Desc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio"
+                                       value="option1">
+                                <label class="form-check-label" for="">
+                                    <i class="fa fa-arrow-up"></i>
+                                    Sales Asc
+                                </label>
+                            </div>
+                            <hr>
+                            <h3 class="text-uppercase text-center">Filter</h3>
+                            <hr>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label" for="">
+                                    All Categories
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label" for="">
+                                    Category 01
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label" for="">
+                                    Category 02
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+
+                                <label class="form-check-label" for="">
+                                    Category 03
+                                </label>
+                            </div>
+                            <hr>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label" for="">
+                                    All Ages
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label" for="">
+                                    Kids
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label" for="">
+                                    Men
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+
+                                <label class="form-check-label" for="">
+                                    Women
+                                </label>
+                            </div>
+                            <hr>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label" for="">
+                                    New Only
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+
+                                <label class="form-check-label" for="">
+                                    With Discount Only
+                                </label>
+                            </div>
+                            <hr>
+                            <form>
+                                <div class="form-group">
+                                    <label for="formControlRange">Example Range input</label>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                            </form>
+                            <form>
+                                <div class="form-group">
+                                    <label for="formControlRange">Example Range input</label>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                            </form>
+                            <hr>
+                            <form>
+                            <div class="form-group row">
+                                <label for="" class="col-form-label ml-3 ">Number of Product</label>
+                                <select class="bootstrap-select sel-S form-control ml-5  ">
+                                    <option value="1" selected="selected">5</option>
+                                    <option value="2">10</option>
+                                    <option value="3">20</option>
+                                    <option value="4">50</option>
+                                    <option value="5">100</option>
+                                </select>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 mt-3 mt-lg-0">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <div class="input-group flex-nowrap">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="addon-wrapping"><i
+                                            class="fa fa-search"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="card border border-primary">
+                                <img src="../../public/assets/image/iphone11-red-select-2019.png" alt="category mobile"
+                                     class="card-img-top" height="200">
+                                <hr>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Mobile</h4>
+                                    <div class="card-subtitle text-center mt-2">
+                                        <span class=" badge badge-success font_14px">999 Products</span>
+                                        <span class=" badge badge-danger font_14px">-20%</span>
+                                        <span class=" badge badge-primary font_14px">NEW</span>
+                                    </div>
+                                    <div class="card-subtitle text-center mt-3 mb-2">
+                                        <span class="badge badge-danger font_14px">Red</span>
+                                        <span class=" badge badge-danger font_14px">Black</span>
+                                        <span class=" badge badge-danger font_14px">Silver</span>
+                                    </div>
+                                    <div class="text-center mb-2">
+                                        <p class="card-text text-truncate">
+                                            put here the category info with
+                                            put here the category info with
+                                            put here the category info with
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary">Details</button>
+                                        <button class="btn btn-success">Add to Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="card border border-primary">
+                                <img src="../../public/assets/image/iphone11-red-select-2019.png" alt="category mobile"
+                                     class="card-img-top" height="200">
+                                <hr>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Mobile</h4>
+                                    <div class="card-subtitle text-center mt-2">
+                                        <span class=" badge badge-success font_14px">999 Products</span>
+                                        <span class=" badge badge-danger font_14px">-20%</span>
+                                        <span class=" badge badge-primary font_14px">NEW</span>
+                                    </div>
+                                    <div class="card-subtitle text-center mt-3 mb-2">
+                                        <span class="badge badge-danger font_14px">Red</span>
+                                        <span class=" badge badge-danger font_14px">Black</span>
+                                        <span class=" badge badge-danger font_14px">Silver</span>
+                                    </div>
+                                    <div class="text-center mb-2">
+                                        <p class="card-text text-truncate">
+                                            put here the category info with
+                                            put here the category info with
+                                            put here the category info with
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary">Details</button>
+                                        <button class="btn btn-success">Add to Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="card border border-primary">
+                                <img src="../../public/assets/image/iphone11-red-select-2019.png" alt="category mobile"
+                                     class="card-img-top" height="200">
+                                <hr>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Mobile</h4>
+                                    <div class="card-subtitle text-center mt-2">
+                                        <span class=" badge badge-success font_14px">999 Products</span>
+                                        <span class=" badge badge-danger font_14px">-20%</span>
+                                        <span class=" badge badge-primary font_14px">NEW</span>
+                                    </div>
+                                    <div class="card-subtitle text-center mt-3 mb-2">
+                                        <span class="badge badge-danger font_14px">Red</span>
+                                        <span class=" badge badge-danger font_14px">Black</span>
+                                        <span class=" badge badge-danger font_14px">Silver</span>
+                                    </div>
+                                    <div class="text-center mb-2">
+                                        <p class="card-text text-truncate">
+                                            put here the category info with
+                                            put here the category info with
+                                            put here the category info with
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary">Details</button>
+                                        <button class="btn btn-success">Add to Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="card border border-primary">
+                                <img src="../../public/assets/image/iphone11-red-select-2019.png" alt="category mobile"
+                                     class="card-img-top" height="200">
+                                <hr>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Mobile</h4>
+                                    <div class="card-subtitle text-center mt-2">
+                                        <span class=" badge badge-success font_14px">999 Products</span>
+                                        <span class=" badge badge-danger font_14px">-20%</span>
+                                        <span class=" badge badge-primary font_14px">NEW</span>
+                                    </div>
+                                    <div class="card-subtitle text-center mt-3 mb-2">
+                                        <span class="badge badge-danger font_14px">Red</span>
+                                        <span class=" badge badge-danger font_14px">Black</span>
+                                        <span class=" badge badge-danger font_14px">Silver</span>
+                                    </div>
+                                    <div class="text-center mb-2">
+                                        <p class="card-text text-truncate">
+                                            put here the category info with
+                                            put here the category info with
+                                            put here the category info with
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary">Details</button>
+                                        <button class="btn btn-success">Add to Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="card border border-primary">
+                                <img src="../../public/assets/image/iphone11-red-select-2019.png" alt="category mobile"
+                                     class="card-img-top" height="200">
+                                <hr>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Mobile</h4>
+                                    <div class="card-subtitle text-center mt-2">
+                                        <span class=" badge badge-success font_14px">999 Products</span>
+                                        <span class=" badge badge-danger font_14px">-20%</span>
+                                        <span class=" badge badge-primary font_14px">NEW</span>
+                                    </div>
+                                    <div class="card-subtitle text-center mt-3 mb-2">
+                                        <span class="badge badge-danger font_14px">Red</span>
+                                        <span class=" badge badge-danger font_14px">Black</span>
+                                        <span class=" badge badge-danger font_14px">Silver</span>
+                                    </div>
+                                    <div class="text-center mb-2">
+                                        <p class="card-text text-truncate">
+                                            put here the category info with
+                                            put here the category info with
+                                            put here the category info with
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary">Details</button>
+                                        <button class="btn btn-success">Add to Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <div class="card border border-primary">
+                                <img src="../../public/assets/image/iphone11-red-select-2019.png" alt="category mobile"
+                                     class="card-img-top" height="200">
+                                <hr>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Mobile</h4>
+                                    <div class="card-subtitle text-center mt-2">
+                                        <span class=" badge badge-success font_14px">999 Products</span>
+                                        <span class=" badge badge-danger font_14px">-20%</span>
+                                        <span class=" badge badge-primary font_14px">NEW</span>
+                                    </div>
+                                    <div class="card-subtitle text-center mt-3 mb-2">
+                                        <span class="badge badge-danger font_14px">Red</span>
+                                        <span class=" badge badge-danger font_14px">Black</span>
+                                        <span class=" badge badge-danger font_14px">Silver</span>
+                                    </div>
+                                    <div class="text-center mb-2">
+                                        <p class="card-text text-truncate">
+                                            put here the category info with
+                                            put here the category info with
+                                            put here the category info with
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary">Details</button>
+                                        <button class="btn btn-success">Add to Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row ">
+                        <div class="col-12">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="jumbotron jumbotron-fluid mb-0 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h5>Quick Links</h5>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li>
+                            <!-- icon code-->
+                            <i class="fa fa-caret-right"></i>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="#">Customer Service</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="#">Help</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-caret-right"></i>
+                            <a href="#">FAQ</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5>Contact Us</h5>
+                    <hr>
+                    <p>
+                        <i class=" fa fa-address-card"></i>
+                        Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                        Lorem IpsumLorem Ipsum Lorem Ipsum
+                        Lorem Ipsum
+                    </p>
+                    <p>
+                        <i class=" fa fa-phone-square"></i>
+                        (000) 000-000-0000
+                    </p>
+                    <p>
+                        <i class=" fa fa-phone-square"></i>
+                        (000) 000-000-0000
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5>Location</h5>
+                    <hr>
+                    <div>
+                        <img src="../../public/assets/image/locations-on-map.png" alt="location of the company"
+                             class="rounded w-100" height="200">
+                    </div>
+
+                </div>
+
+
+                "
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+<script src="../../public/assets/js/jquery-3.4.1.min.js"></script>
+<script src="../../public/assets/js/popper.min.js"></script>
+<script src="../../public/assets/js/bootstrap.min.js"></script>
+<script src="../../public/assets/js/all.min.js"></script>
+
+
+</body>
+</html>
